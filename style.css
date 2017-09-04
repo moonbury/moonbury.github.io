@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  padding-left: 11em;
+  font-family: Verdana, Georgia, "Times New Roman",
+        Times, serif;
+  font-size: 16px;
+  color: white;
+  background-color: black }
+  
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 4em;
+  left: 1em;
+  width: 12em }
+  
+h1 {
+  font-family: Verdana,Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+		
+ul.navbar li {
+  background: black;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid white }
+  
+ul.navbar a {
+  text-decoration: none }
+  
+a:link {
+  color: white;
+  text-decoration: none  
+}
+
+a:visited {
+  text-decoration: none;
+  color: white 
+}
+
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
