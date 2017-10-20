@@ -1,0 +1,33 @@
+#application: teak-spot-88306
+#version: 2
+runtime: php55
+api_version: 1
+threadsafe: false
+
+handlers:
+- url: /aws-sdk/*
+  static_dir: aws-sdk
+
+- url: /ci/*
+  static_dir: ci
+
+- url: /css/*
+  static_dir: css
+
+- url: /fonts/*
+  static_dir: fonts
+
+- url: /img/*
+  static_dir: img
+
+- url: /js/*
+  static_dir: js
+
+- url: /phpMyAdmin/*
+  static_dir: phpMyAdmin
+
+- url: /
+  script: index.html
+
+- url: /(.+)
+  script: index.html
