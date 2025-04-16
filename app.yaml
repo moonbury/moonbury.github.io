@@ -1,6 +1,6 @@
 #application: teak-spot-88306
 #version: 2
-runtime: php55
+runtime: php83
 api_version: 1
 threadsafe: false
 
